@@ -11,3 +11,7 @@ func FakingHandle(response http.ResponseWriter, request *http.Request) {
 	puking.Damn()
 	// demn.silentDenmt
 }
+
+func FakingPOSTHandle(response http.ResponseWriter, request *http.Request) {
+	fmt.Println("POST GES")
+}
