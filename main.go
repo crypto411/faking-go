@@ -1,8 +1,8 @@
 package main
 
 import (
-	"faking"
 	"log"
+	"main/faking"
 	"net/http"
 )
 

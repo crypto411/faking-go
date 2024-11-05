@@ -2,8 +2,8 @@ package faking
 
 import (
 	"fmt"
+	"main/puking"
 	"net/http"
-	"puking"
 )
 
 func FakingHandle(response http.ResponseWriter, request *http.Request) {
